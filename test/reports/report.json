@@ -1,0 +1,316 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Homepage base functionality",
+    "line": 2,
+    "id": "homepage-base-functionality",
+    "tags": [
+      {
+        "name": "@militarist",
+        "line": 1
+      }
+    ],
+    "uri": "test/e2e/features/baseFunctionality.feature",
+    "elements": [
+      {
+        "id": "homepage-base-functionality;verify-that-user-can-open-homepage",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify that user can open homepage",
+        "tags": [
+          {
+            "name": "@militarist",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open \"https://militarist.ua/ua/\"",
+            "match": {
+              "location": "test/e2e/step_definitions/browserInteractions.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1697000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I wait until pageHeader is displayed",
+            "match": {
+              "location": "test/e2e/step_definitions/browserInteractions.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I click changeLanguageRU",
+            "match": {
+              "location": "test/e2e/step_definitions/mouseInteractions.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1026000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I wait until textFromAddressOfTheShops is displayed",
+            "match": {
+              "location": "test/e2e/step_definitions/browserInteractions.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Text of \"textFromAddressOfTheShops\" should contain \"Адреса магазинов\"",
+            "match": {
+              "location": "test/e2e/step_definitions/browserInteractions.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on the registration button",
+            "match": {
+              "location": "test/e2e/step_definitions/mouseInteractions.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I wait 1 seconds",
+            "match": {
+              "location": "test/e2e/step_definitions/browserInteractions.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1006000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I close the registration form",
+            "match": {
+              "location": "test/e2e/step_definitions/mouseInteractions.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I wait 2 seconds",
+            "match": {
+              "location": "test/e2e/step_definitions/browserInteractions.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2002000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "homepage-base-functionality;check-search-ability-of-the-website",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Check search ability of the website",
+        "tags": [
+          {
+            "name": "@militarist",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "\"GERBER МАЧЕТЕ-ПИЛА GATOR MACHETE JR\" should be displayed on the website",
+            "match": {
+              "location": "test/e2e/step_definitions/browserInteractions.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2881000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "homepage-base-functionality;check-search-ability-of-the-website",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Check search ability of the website",
+        "tags": [
+          {
+            "name": "@militarist",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "\"BLADE BROTHERS МАЧЕТЕ ГОЛОК\" should be displayed on the website",
+            "match": {
+              "location": "test/e2e/step_definitions/browserInteractions.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2645000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "homepage-base-functionality;check-search-ability-of-the-website",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Check search ability of the website",
+        "tags": [
+          {
+            "name": "@militarist",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "\"BAD COMPANY ФУТБОЛКА DAMAGE DEALER\" should be displayed on the website",
+            "match": {
+              "location": "test/e2e/step_definitions/browserInteractions.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2680000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "homepage-base-functionality;check-search-ability-of-the-website",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Check search ability of the website",
+        "tags": [
+          {
+            "name": "@militarist",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "\"FAB DEFENSE РУКОЯТКА ПИСТОЛЕТНАЯ ДЛЯ ПМ BLACK\" should be displayed on the website",
+            "match": {
+              "location": "test/e2e/step_definitions/browserInteractions.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2696000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

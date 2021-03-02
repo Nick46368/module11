@@ -1,0 +1,26 @@
+{
+  "name": "m11",
+  "version": "1.0.0",
+  "description": "protractor-cucumber framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor test/e2e/config/protractor.config.js",
+    "update": "webdriver-manager update"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "chai-as-promised": "*",
+    "cucumber": "*",
+    "cucumber-html-reporter": "*",
+    "cucumber-pretty": "*",
+    "eslint": "^7.21.0",
+    "fs-extra": "*",
+    "prettier": "^2.2.1",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "*",
+    "winston": "*",
+    "yargs": "*"
+  },
+  "author": "Baal",
+  "license": "ISC"
+}
