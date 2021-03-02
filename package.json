@@ -4,7 +4,7 @@
   "description": "protractor-cucumber framework",
   "main": "index.js",
   "scripts": {
-    "test": "protractor test/e2e/config/protractor.config.js",
+    "e2e": "protractor test/e2e/config/protractor.config.js",
     "update": "webdriver-manager update"
   },
   "devDependencies": {
